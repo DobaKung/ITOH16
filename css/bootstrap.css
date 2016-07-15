@@ -1083,7 +1083,7 @@ html {
 }
 body {
   font-family: "Pridi", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 19px;
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
@@ -4961,8 +4961,7 @@ a.badge:focus {
 }
 .jumbotron {
   padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
+  padding-bottom: 90px;
   color: inherit;
   background-color: #eee;
 }
@@ -4990,7 +4989,7 @@ a.badge:focus {
 @media screen and (min-width: 768px) {
   .jumbotron {
     padding-top: 48px;
-    padding-bottom: 48px;
+    padding-bottom: 90px;
   }
   .container .jumbotron,
   .container-fluid .jumbotron {
@@ -6571,6 +6570,24 @@ button.close {
 .visible-lg-inline-block {
   display: none !important;
 }
+
+/* START CUSTOM */
+
+.bluesec {
+    background: #0bace1;
+    color: #fff;
+    padding-bottom: 50px;
+}
+.bluesec img {
+    width: 100%;
+    box-shadow: 0px 14px 40px rgba(0,0,0,0.50);
+}
+.highlight-reel {
+    margin: -50px 0 40px 0;
+}
+
+/* END CUSTOM */
+
 @media (max-width: 767px) {
   .visible-xs {
     display: block !important;
