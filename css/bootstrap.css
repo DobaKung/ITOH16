@@ -1082,7 +1082,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Pridi", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
@@ -1184,7 +1184,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
+  font-family: Prompt;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -1289,6 +1289,7 @@ h6,
 }
 p {
   margin: 0 0 10px;
+    letter-spacing: 0.5px;
 }
 .lead {
   margin-bottom: 20px;
