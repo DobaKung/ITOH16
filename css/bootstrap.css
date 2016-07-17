@@ -6630,6 +6630,7 @@ h6.light {
 .activity-box--white {
     color: #f78d0f;
     background: #ffffff;
+    box-shadow: 0px 16px 20px rgba(0, 0, 0, 0.13);
 }
 .activity-box--transparent {
     color: #ffffff;
