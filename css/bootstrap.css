@@ -6598,6 +6598,9 @@ h6.light {
 .highlight-textbox {
     margin: 20px 0;
 }
+.regis-home {
+    margin: 0;
+}
 .regis1 {
 }
 .regis2 {
@@ -6610,6 +6613,10 @@ h6.light {
 }
 .regis-text h3 {
     line-height: 1px;
+}
+.orangesec {
+    background: #f78d0f;
+    padding: 50px 0;
 }
 
 /* END CUSTOM */
