@@ -6574,6 +6574,14 @@ button.close {
 
 /* START CUSTOM */
 
+h1.light,
+h2.light,
+h3.light,
+h4.light,
+h5.light,
+h6.light {
+    font-weight: 200;
+}
 .bluesec {
     background: #0bace1;
     color: #fff;
@@ -6593,6 +6601,14 @@ button.close {
 }
 .regis2 {
 	color: #fff;
+}
+.regis-text {
+    margin: 0 auto;
+    padding: 110px 0 90px 0;
+    width: 185px;
+}
+.regis-text h3 {
+    line-height: 1px;
 }
 
 /* END CUSTOM */
