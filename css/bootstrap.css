@@ -6622,14 +6622,15 @@ h6.light {
     border: 2px solid #ffffff;
     padding: 25px;
     margin: 20px;
-    height: 280px
+    min-height: 270px
 }
-.activity-box h1 {
-    margin: 0;
+.activity-box h1, .activity-box p {
+    margin: 0 0 15px 0;
 }
 .activity-box--white {
     color: #f78d0f;
     background: #ffffff;
+    box-shadow: 0px 16px 20px rgba(0, 0, 0, 0.13);
 }
 .activity-box--transparent {
     color: #ffffff;
