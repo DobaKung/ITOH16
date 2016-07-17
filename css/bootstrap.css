@@ -6643,6 +6643,9 @@ h6.light {
 .activity-box--transparent {
     color: #ffffff;
 }
+.hero {
+  padding: 50px 0;
+}
 
 /* END CUSTOM */
 
