@@ -4494,7 +4494,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-right ~ .navbar-right {
     margin-right: 0;
-  } 
+  }
 }
 .navbar-default {
   background-color: #f8f8f8;
@@ -4502,7 +4502,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-brand {
   color: #777;
-    
+
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -6588,6 +6588,11 @@ button.close {
 }
 .highlight-textbox {
     margin: 20px 0;
+}
+.regis1 {
+}
+.regis2 {
+	color: #fff;
 }
 
 /* END CUSTOM */
