@@ -6618,6 +6618,22 @@ h6.light {
     background: #f78d0f;
     padding: 50px 0;
 }
+.activity-box {
+    border: 2px solid #ffffff;
+    padding: 25px;
+    margin: 20px;
+    height: 280px
+}
+.activity-box h1 {
+    margin: 0;
+}
+.activity-box--white {
+    color: #f78d0f;
+    background: #ffffff;
+}
+.activity-box--transparent {
+    color: #ffffff;
+}
 
 /* END CUSTOM */
 
