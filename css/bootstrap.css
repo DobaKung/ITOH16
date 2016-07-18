@@ -6713,6 +6713,7 @@ h6.light {
     margin: 120px 40px 60px 40px;
     box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
     padding: 30px 0;
+    font-weight: 200;
 }
 .paper hr {
     margin-top: 35px;
