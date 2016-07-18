@@ -6652,10 +6652,21 @@ h6.light {
     color: #ffffff;
 }
 .eventcarousel {
-    padding: 40px 0 50px 0;
+    padding: 60px 30px;
     background:#f4f4f4;
     color: #0bace1;
     text-align: center;
+}
+.eventcarousel h1 {
+    margin-bottom: 80px;
+}
+@media (max-width: 767px) {
+    .eventcarousel {
+        padding: 20px 0;
+    }
+    .eventcarousel h1 {
+        margin-bottom: 40px;
+    }
 }
 
 /* END CUSTOM */
