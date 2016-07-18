@@ -6715,6 +6715,9 @@ h6.light {
     .eventcarousel h1 {
         margin-bottom: 40px;
     }
+    .activity-box--transparent {
+        min-height: 200px;
+    }
 }
 footer {
     padding: 55px 0 38px 0;
