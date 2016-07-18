@@ -6651,12 +6651,11 @@ h6.light {
 .activity-box--transparent {
     color: #ffffff;
 }
-.textbeforepictures {
-  padding: 50px 0;
-  background:#f4f4f4;
+.eventcarousel {
+    padding: 40px 0 50px 0;
+    background:#f4f4f4;
     color: #0bace1;
     text-align: center;
-
 }
 
 /* END CUSTOM */
