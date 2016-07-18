@@ -6677,7 +6677,8 @@ h6.light {
 }
 footer {
     padding: 50px 0 38px 0;
-    background: #2a2a2a;
+    background-color: #2a2a2a;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 3px, rgba(47, 47, 47, 0.5) 3px, rgba(101, 101, 101, 0.5) 6px);
     color: #fff;
     font-weight: 200;
     font-size: 15px;
