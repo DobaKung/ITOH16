@@ -6624,14 +6624,13 @@ h6.light {
 .highlight-textbox {
     margin: 20px 0;
 }
-.regiscol1, .regiscol2 {
-    background-size: cover;
-}
 .regiscol1 {
     background: url('../img/regis1.jpg');
+    background-size: cover;
 }
 .regiscol2 {
     background: url('../img/regis2.jpg');
+    background-size: cover;
 }
 .regis1, .regis2 {
     transition: opacity 0.3s;
