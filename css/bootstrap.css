@@ -6708,6 +6708,11 @@ h6.light {
 .eventcarousel h1 {
     margin-bottom: 80px;
 }
+.paper {
+    background: #fff;
+    margin: 120px 40px 60px 40px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+}
 @media (max-width: 767px) {
     .eventcarousel {
         padding: 20px 0;
@@ -6717,6 +6722,10 @@ h6.light {
     }
     .activity-box--transparent {
         min-height: 200px;
+    }
+    .paper {
+        margin: 100px 0;
+        box-shadow: none;
     }
 }
 footer {
