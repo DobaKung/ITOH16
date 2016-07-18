@@ -64,19 +64,11 @@
 			<!--change class name later-->
 			<div class="container">
 				<div class="highlight-reel">
-					<div class="row">
-						<div class="col-xs-12 col-sm-6 col-md-3">
-							<img src="img/highlight-1.jpg" alt="highlight"/>
-						</div>
-						<div class="col-xs-12 col-sm-6 col-md-3 hidden-xs">
-							<img src="img/highlight-2.jpg" alt="highlight"/>
-						</div>
-						<div class="col-xs-12 col-sm-6 col-md-3 hidden-xs hidden-sm">
-							<img src="img/highlight-3.jpg" alt="highlight"/>
-						</div>
-						<div class="col-xs-12 col-sm-6 col-md-3 hidden-xs hidden-sm">
-							<img src="img/highlight-4.jpg" alt="highlight"/>
-						</div>
+					<div id="highlight" class="owl-carousel owl-theme">
+                        <img src="img/highlight-1.jpg" alt="highlight"/>
+                        <img src="img/highlight-2.jpg" alt="highlight"/>
+                        <img src="img/highlight-3.jpg" alt="highlight"/>
+                        <img src="img/highlight-4.jpg" alt="highlight"/>
 					</div>
 				</div>
 				<h2 class="text-center">เลือกเรียน เปลี่ยนชีวิต</h2>
@@ -173,41 +165,6 @@
             <h1 class="light visible-xs">บรรยากาศ<br/><b>ภายในงาน</b></h1>
             <h1 class="light hidden-xs"><b>บรรยากาศ</b>ภายในงาน</h1>
             <div class="container">
-                <!--div id="eventcarousel" class="carousel slide" data-ride="carousel"-->
-                    <!-- Wrapper for slides -->
-                    <!--div class="carousel-inner" role="listbox">
-                        <div class="item active" align="center">
-                            <img src="img/jumbo-1.jpg" class="img-responsive" alt="pic1" />
-                        </div>
-                        <div class="item" align="center">
-                            <img src="img/jumbo-2.jpg" class="img-responsive" alt="pic2" />
-                        </div>
-                        <div class="item" align="center">
-                            <img src="img/jumbo-3.jpg" class="img-responsive" alt="pic3" />
-                        </div>
-                        <div class="item" align="center">
-                            <img src="img/jumbo-4.jpg" class="img-responsive" alt="pic4" />
-                        </div>
-                        <div class="item" align="center">
-                            <img src="img/jumbo-5.jpg" class="img-responsive" alt="pic5" />
-                        </div>
-                        <div class="item" align="center">
-                            <img src="img/jumbo-6.jpg" class="img-responsive" alt="pic6" />
-                        </div>
-                        <div class="item" align="center">
-                            <img src="img/jumbo-7.jpg" class="img-responsive" alt="pic7" />
-                        </div>
-                    </div-->
-                    <!-- Left and right controls -->
-                    <!--a class="left carousel-control" href="#eventcarousel" role="button" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#eventcarousel" role="button" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div-->
                 <div id="lastyear" class="owl-carousel owl-theme">
                     <img src="img/jumbo-1.jpg" class="img-responsive" alt="pic" />
                     <img src="img/jumbo-2.jpg" class="img-responsive" alt="pic" />
@@ -241,6 +198,10 @@
                 $("#lastyear").owlCarousel({
                     singleItem:true,
                     slideSpeed:300
+                });
+                $("#highlight").owlCarousel({
+                    items:4,
+                    autoPlay:3000
                 });
             });
         </script>
