@@ -4288,7 +4288,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   float: left;
   height: 50px;
-  padding: 0px 60px;
+  padding: 7px 15px;
   font-size: 18px;
   line-height: 20px;
 }
@@ -4298,6 +4298,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand > img {
   display: block;
+  height: 100%;
+  width: 100%;
 }
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
@@ -4507,9 +4509,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.80);
   border-color: #e7e7e7;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.07);
+  padding: 10px 0;
 }
 
 .navbar-default .navbar-brand {
@@ -4973,7 +4976,7 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding-top: 44px;
+  padding-top: 70px;
   color: inherit;
   background-color: #eee;
 }
@@ -5000,7 +5003,7 @@ a.badge:focus {
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
-    padding-top: 48px;
+    padding-top: 0;
   }
   .container .jumbotron,
   .container-fluid .jumbotron {
