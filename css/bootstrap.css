@@ -6675,6 +6675,20 @@ h6.light {
         margin-bottom: 40px;
     }
 }
+footer {
+    padding: 50px 0 38px 0;
+    background: #2a2a2a;
+    color: #fff;
+    font-weight: 200;
+    font-size: 15px;
+}
+footer a {
+    color: #fff;
+}
+footer a:hover {
+    text-decoration: none;
+    color: #0bace1;
+}
 
 /* END CUSTOM */
 
@@ -6864,11 +6878,5 @@ h6.light {
   .hidden-print {
     display: none !important;
   }
-}
-.footer {
-  position: static;
-  right: 0;
-  left: 0;
-  z-index: 1030;
 }
 /*# sourceMappingURL=bootstrap.css.map */
