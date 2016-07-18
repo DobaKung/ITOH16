@@ -6633,6 +6633,7 @@ h6.light {
 }
 .bluesec img {
     width: 100%;
+    padding: 0 7px;
 }
 .highlight-reel {
     margin: -50px 0 40px 0;
