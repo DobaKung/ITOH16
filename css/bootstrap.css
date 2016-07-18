@@ -4513,7 +4513,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: rgba(255, 255, 255, 0.94);
+  background-color: rgba(255, 255, 255, 0.80);
   border-color: #e7e7e7;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.07);
   padding: 10px 0;
@@ -6617,15 +6617,10 @@ h6.light {
 .regis-home {
     margin: 0;
 }
-.regis1 a {
-    color: black;
+.regis1 {
 }
-.regis2 a {
+.regis2 {
 	color: #fff;
-}
-.regis1 a:hover, .regis2 a:hover {
-    text-decoration: none;
-    opacity: 0.7;
 }
 .regis-text {
     margin: 0 auto;
