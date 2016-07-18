@@ -6625,12 +6625,14 @@ h6.light {
 }
 .regis1 a:hover, .regis2 a:hover {
     text-decoration: none;
-    opacity: 0.7;
 }
 .regis-text {
     margin: 0 auto;
     padding: 100px 0 90px 0;
     width: 185px;
+}
+.regis1:hover, .regis2:hover {
+    opacity: 0.5;
 }
 .regis-text h3 {
     line-height: 1px;
