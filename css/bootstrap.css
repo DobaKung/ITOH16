@@ -6712,6 +6712,11 @@ h6.light {
     background: #fff;
     margin: 120px 40px 60px 40px;
     box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+    padding: 30px 0;
+}
+.paper hr {
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 @media (max-width: 767px) {
     .eventcarousel {
