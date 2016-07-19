@@ -2293,6 +2293,9 @@ th {
 .table > tbody + tbody {
   border-top: 2px solid #ddd;
 }
+.table tbody, .table ul {
+    font-size: 0.85em;
+}
 .table .table {
   background-color: #fff;
 }
