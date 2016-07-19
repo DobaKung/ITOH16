@@ -6638,6 +6638,10 @@ h5.light,
 h6.light {
     font-weight: 200;
 }
+.jumbobuttons {
+    margin: 0 auto;
+    width: 282px;
+}
 .bluesec {
     background: #0bace1;
     color: #fff;
