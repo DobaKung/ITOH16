@@ -3584,7 +3584,7 @@ tbody.collapse.in {
   display: block;
   padding: 9px 20px;
   clear: both;
-  font-weight: normal;
+  font-weight: 200;
   line-height: 1.42857143;
   color: #333;
   white-space: nowrap;
