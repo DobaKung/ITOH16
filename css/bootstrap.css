@@ -6776,6 +6776,10 @@ footer a:hover {
     text-decoration: none;
     color: #0bace1;
 }
+form h3 {
+    border-bottom: 1px dotted #777777;
+    margin-bottom: 20px;
+}
 @media (max-width: 768px) {
     .eventcarousel {
         padding: 20px 0;
