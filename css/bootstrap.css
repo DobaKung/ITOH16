@@ -4533,6 +4533,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-color: #e7e7e7;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.07);
   padding: 10px 0;
+  font-weight: 200;
 }
 
 .navbar-default .navbar-brand {
