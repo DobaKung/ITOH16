@@ -6735,21 +6735,6 @@ h6.light {
     margin-top: 35px;
     margin-bottom: 35px;
 }
-@media (max-width: 767px) {
-    .eventcarousel {
-        padding: 20px 0;
-    }
-    .eventcarousel h1 {
-        margin-bottom: 40px;
-    }
-    .activity-box--transparent {
-        min-height: 200px;
-    }
-    .paper {
-        margin: 100px 0;
-        box-shadow: none;
-    }
-}
 footer {
     padding: 55px 0 38px 0;
     background-color: #2a2a2a;
@@ -6764,6 +6749,21 @@ footer a {
 footer a:hover {
     text-decoration: none;
     color: #0bace1;
+}
+@media (max-width: 767px) {
+    .eventcarousel {
+        padding: 20px 0;
+    }
+    .eventcarousel h1 {
+        margin-bottom: 40px;
+    }
+    .activity-box--transparent {
+        min-height: 150px !important;
+    }
+    .paper {
+        margin: 100px 0;
+        box-shadow: none;
+    }
 }
 @media (min-width: 769px) and (max-width: 980px) {
     .navbar-default .container {
@@ -6783,12 +6783,16 @@ footer a:hover {
         margin-top: -8px;
     }
 }
-@media (max-width: 359px) {
+@media (max-width: 400px) {
     .activity-box h1 {
         font-size: 25px;
     }
     .activity-box p {
         font-size: 16px;
+    }
+    .activity-box {
+        padding: 18px;
+        margin: 10px;
     }
 }
 
