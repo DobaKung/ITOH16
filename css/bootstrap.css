@@ -6691,15 +6691,15 @@ h6.light {
 .activity-box h1, .activity-box p {
     margin: 0 0 15px 0;
 }
+.activity-box p {
+    font-weight: 200;
+}
 .activity-box--white {
     color: #f78d0f;
     background: #ffffff;
     box-shadow: 0px 16px 20px rgba(0, 0, 0, 0.13);
     transition: box-shadow 0.3s;
     -webkit-transition: box-shadow 0.3s;
-}
-.activity-box--white:hover {
-    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
 }
 .activity-box--transparent {
     color: #ffffff;
