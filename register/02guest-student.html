@@ -81,18 +81,12 @@
 						<div class="col-xs-12 col-md-6">
 							<div class="form-group">
 								<label>เพศ</label>
-								<div>
-									<label class="radio-inline">
-									<input type="radio" name="gender" value="M" required> ชาย
-									</label>
-									<label class="radio-inline">
-									<input type="radio" name="gender" value="F" required> หญิง
-									</label>
-									<label class="radio-inline">
-									<input type="radio" name="gender" value="U" required> ไม่ระบุ
-									</label>
-								</div>
-							</div>
+                                <select class="form-control" name="prefix[]" required>
+                                    <option value="M">ชาย</option>
+								    <option value="F">หญิง</option>
+								    <option value="U">ไม่ระบุ</option>
+								</select>
+                            </div>
 						</div>
 						<div class="col-xs-12 col-md-6">
 							<div class="form-group">
