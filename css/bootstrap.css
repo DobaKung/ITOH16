@@ -6711,7 +6711,7 @@ h6.light {
     margin-bottom: 80px;
 } */
 .eventpic {
-    padding: 60px 30px;
+    padding: 60px 0;
     background:#fafafa;
     color: #0bace1;
     text-align: center;
@@ -6735,6 +6735,10 @@ h6.light {
     margin-top: 35px;
     margin-bottom: 35px;
 }
+.paper .btn-primary {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
 footer {
     padding: 55px 0 38px 0;
     background-color: #2a2a2a;
@@ -6750,7 +6754,7 @@ footer a:hover {
     text-decoration: none;
     color: #0bace1;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .eventcarousel {
         padding: 20px 0;
     }
@@ -6793,6 +6797,15 @@ footer a:hover {
     .activity-box {
         padding: 18px;
         margin: 10px;
+    }
+    .eventpic {
+        padding: 15px 0 50px 0;
+    }
+    .eventpic h1 {
+        margin-bottom: 32px;
+    }
+    .paper p, .paper li, .paper table {
+        font-size: 14px;
     }
 }
 
