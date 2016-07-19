@@ -161,7 +161,8 @@
 				</div>
 			</div>
 		</div>
-        <!---------  <div class="eventcarousel">
+       <div class="eventcarousel">
+           <div class="eventpic">
             <h1 class="light visible-xs">บรรยากาศ<br/><b>ภายในงาน</b></h1>
             <h1 class="light hidden-xs"><b>บรรยากาศ</b>ภายในงาน</h1>
             <div class="container">
@@ -174,35 +175,52 @@
                     <img src="img/jumbo-6.jpg" class="img-responsive" alt="pic" />
                     <img src="img/jumbo-7.jpg" class="img-responsive" alt="pic" />
                 </div>
+                </div>
             </div>
-        </div> ------------>
-        <div class="eventpic">
+        </div> 
+        <!---<div class="eventpic">
             <div class="container">
                 <h1 class="light visible-xs">บรรยากาศ<br/><b>ภายในงาน</b></h1>
                 <h1 class="light hidden-xs"><b>บรรยากาศ</b>ภายในงาน</h1>
+                
                 <div class="masonry-grid">
-                    <div class="masonry-grid-sizer"></div>
                     <div class="masonry-grid-item">
-                        <img src="img/jumbo-1.jpg" />
+                        <img src="img/jumbo-1.jpg" class="img-responsive"\/>
                     </div>
                     <div class="masonry-grid-item">
-                        <img src="img/jumbo-2.jpg" />
+                        <img src="img/jumbo-2.jpg" class="img-responsive"\/>
                     </div>
                     <div class="masonry-grid-item">
-                        <img src="img/jumbo-3.jpg" />
+                        <img src="img/jumbo-3.jpg" class="img-responsive" \/>
                     </div>
                     <div class="masonry-grid-item">
-                        <img src="img/jumbo-4.jpg" />
+                        <img src="img/jumbo-4.jpg" class="img-responsive"\/>
                     </div>
                     <div class="masonry-grid-item">
-                        <img src="img/jumbo-5.jpg" />
+                        <img src="img/jumbo-5.jpg" class="img-responsive"\/>
                     </div>
                     <div class="masonry-grid-item">
-                        <img src="img/jumbo-6.jpg" />
+                        <img src="img/jumbo-6.jpg" class="img-responsive"\/>
                     </div>
-                </div>
+                
             </div>
+</div>
+        </div> --->
+<!----
+        <div class="eventpic">
+        <div class="container">
+            <h1 class="light visible-xs">บรรยากาศ<br/><b>ภายในงาน</b></h1>
+                <h1 class="light hidden-xs"><b>บรรยากาศ</b>ภายในงาน</h1>
+        <div id="lastyear" class="owl-carousel owl-theme">
+	        <img src="img/jumbo-1.jpg" class="img-responsive" alt="pic" />
+            <img src="img/jumbo-2.jpg" class="img-responsive" alt="pic" />
+            <img src="img/jumbo-3.jpg" class="img-responsive" alt="pic" />
+            <img src="img/jumbo-4.jpg" class="img-responsive" alt="pic" />
+            <img src="img/jumbo-5.jpg" class="img-responsive" alt="pic" />
+            <img src="img/jumbo-6.jpg" class="img-responsive" alt="pic" />
+            <img src="img/jumbo-7.jpg" class="img-responsive" alt="pic" />
         </div>
+        </div> ----->
         <footer>
             <div class="container">
                 <div class="hidden-xs">
@@ -223,16 +241,19 @@
         <script src="js/owl.carousel.min.js"></script>
         <script type="text/javascript">
             $(document).ready(function() {
-                $("#lastyear").owlCarousel({
-                    singleItem:true,
-                    slideSpeed:300
+	$("#lastyear").owlCarousel({
+                    items:2,
+                    autoPlay:2000
                 });
+           
+
                 $("#highlight").owlCarousel({
                     items:4,
                     autoPlay:2000
                 });
             });
         </script>
+        
         <script src="js/masonry.pkgd.min.js"></script>
 	</body>
 </html>
