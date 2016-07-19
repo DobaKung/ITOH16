@@ -5504,7 +5504,7 @@ button.list-group-item-danger.active:focus {
 .panel-body {
   padding: 15px;
 }
-.panel p, .panel ul {
+.panel p, .panel ul, .panel address {
     font-size: 0.9em;
 }
 .panel-heading {
@@ -5752,23 +5752,12 @@ button.list-group-item-danger.active:focus {
   border-bottom-color: #ddd;
 }
 .panel-contact {
-    width: 380px;
-    height: 320px;
+    width: 100%;
 }
 .panel-contact > .panel-heading {
   color: #fff;
   background-color: #337ab7;
   border-color: #337ab7;
-}
-.panel-contact > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #337ab7;
-}
-.panel-contact > .panel-heading .badge {
-  color: #337ab7;
-  background-color: #fff;
-}
-.panel-contact > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #337ab7;
 }
 .panel-primary {
   border-color: #337ab7;
