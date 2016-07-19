@@ -5000,6 +5000,7 @@ a.badge:focus {
   color: #fff;
   background: url('../img/hero.jpg');
   background-size: cover;
+  background-position: center;
 }
 .jumbotron h1,
 .jumbotron .h1 {
