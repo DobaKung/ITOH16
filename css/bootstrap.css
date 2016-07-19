@@ -6730,6 +6730,13 @@ h6.light {
     box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
     padding: 30px 0;
     font-weight: 200;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
 }
 .paper hr {
     margin-top: 35px;
