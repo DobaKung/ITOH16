@@ -5752,7 +5752,7 @@ button.list-group-item-danger.active:focus {
   border-bottom-color: #ddd;
 }
 .panel-contact {
-    width: 500px;
+    width: 380px;
     height: 320px;
 }
 .panel-contact > .panel-heading {
