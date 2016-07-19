@@ -3073,8 +3073,8 @@ fieldset[disabled] a.btn {
     transition: background 0.2s, transform 0.2s, color, 0.2s;
     -webkit-transition: background 0.2s, transform 0.2s, color, 0.2s;
 }
-.btn-jumbo:hover {
-    background: #fff;
+.btn-jumbo:hover, .btn-jumbo:focus {
+    background: #fff !important;
     color: #000;
 }
 .btn-default {
