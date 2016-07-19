@@ -6741,7 +6741,7 @@ h6.light {
     -webkit-hyphens: auto;
     hyphens: auto;
 }
-.paper b, .paper strong {
+.paper b.red, .paper strong.red {
     color: red;
 }
 .paper hr {
