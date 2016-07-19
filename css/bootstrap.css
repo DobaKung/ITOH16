@@ -6821,6 +6821,8 @@ footer a:hover {
     .paper p, .paper li, .paper table {
         font-size: 14px;
     }
+}
+@media (max-width: 767px) {
     body {
         background: #fff !important;
     }
