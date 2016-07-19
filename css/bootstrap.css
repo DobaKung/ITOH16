@@ -6821,6 +6821,9 @@ footer a:hover {
     .paper p, .paper li, .paper table {
         font-size: 14px;
     }
+    body {
+        background: #fff !important;
+    }
 }
 
 /* END CUSTOM */
