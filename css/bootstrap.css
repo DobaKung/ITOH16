@@ -6779,8 +6779,11 @@ footer a:hover {
         min-height: 150px !important;
     }
     .paper {
-        margin: 100px 0;
+        margin: 50px 0;
         box-shadow: none;
+    }
+    body {
+        background: #fff !important;
     }
 }
 @media (min-width: 769px) and (max-width: 980px) {
@@ -6820,11 +6823,6 @@ footer a:hover {
     }
     .paper p, .paper li, .paper table {
         font-size: 14px;
-    }
-}
-@media (max-width: 767px) {
-    body {
-        background: #fff !important;
     }
 }
 
