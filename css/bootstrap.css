@@ -6701,7 +6701,7 @@ h6.light {
 .activity-box--transparent {
     color: #ffffff;
 }
-.eventcarousel {
+/* .eventcarousel {
     padding: 60px 30px;
     background:#fafafa;
     color: #0bace1;
@@ -6709,7 +6709,7 @@ h6.light {
 }
 .eventcarousel h1 {
     margin-bottom: 80px;
-}
+} */
 .eventpic {
     padding: 60px 30px;
     background:#fafafa;
@@ -6718,6 +6718,11 @@ h6.light {
 }
 .eventpic h1 {
     margin-bottom: 80px;
+}
+.whitesec {
+    background: #fff;
+    color: #fff;
+    padding-bottom: 50px;
 }
 .paper {
     background: #fff;
@@ -6950,8 +6955,4 @@ footer a:hover {
     display: none !important;
   }
 }
-.whitesec {
-    background: rgba(250,250,250,1);
-    color: #fff;
-    padding-bottom: 50px;
 /*# sourceMappingURL=bootstrap.css.map */
