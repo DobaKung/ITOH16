@@ -4571,8 +4571,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #222222;
-  background: #e8e8e8;
+  color: #fff;
+  background: #0bace1;
+  font-weight: 500;
 }
 @media (max-width: 767px) {
     .navbar-default .navbar-nav > li > a:hover,
