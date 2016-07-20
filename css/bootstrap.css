@@ -1099,7 +1099,6 @@ th {
 }
 html {
   font-size: 10px;
-
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
@@ -6784,6 +6783,11 @@ form h3 {
     .navbar-default .container {
         padding-left: 0;
         padding-right: 0;
+    }
+}
+@media (min-width: 769px) {
+    body {
+        text-rendering: optimizeLegibility;
     }
 }
 @media (width: 768px) {
