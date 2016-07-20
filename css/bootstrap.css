@@ -54,7 +54,7 @@ abbr[title] {
 }
 b,
 strong {
-  font-weight: 400;
+  font-weight: 600;
 }
 dfn {
   font-style: italic;
@@ -259,6 +259,27 @@ th {
   .table-bordered td {
     border: 1px solid #ddd !important;
   }
+}
+@font-face {
+    font-family: 'boonlight';
+    src: url('../fonts/boon-300.woff2') format('woff2'),
+         url('../fonts/boon-300.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'boonmedium';
+    src: url('../fonts/boon-500.woff2') format('woff2'),
+         url('../fonts/boon-500.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'boonbold';
+    src: url('../fonts/boon-600.woff2') format('woff2'),
+         url('../fonts/boon-600.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
@@ -1082,7 +1103,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Pridi", Helvetica, Arial, sans-serif;
+  font-family: "Boon", Helvetica, Arial, sans-serif;
   font-size: 19px;
   line-height: 1.42857143;
   color: #333;
@@ -1184,8 +1205,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: Prompt;
-  font-weight: 500;
+  font-family: Boon;
+  font-weight: 600;
   line-height: 1.1;
   color: inherit;
 }
@@ -2282,7 +2303,7 @@ th {
 .table > thead > tr > th {
   vertical-align: bottom;
   border-bottom: 2px solid #ddd;
-  font-weight: 400;
+  font-weight: 500;
 }
 .table > caption + thead > tr:first-child > th,
 .table > colgroup + thead > tr:first-child > th,
@@ -2513,7 +2534,7 @@ label {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 5px;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 17px;
 }
 input[type="search"] {
@@ -4558,7 +4579,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #000000;
-  font-weight: 400;
+  font-weight: 500;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .disabled > a,
@@ -5515,7 +5536,7 @@ button.list-group-item-danger.active:focus {
   border-bottom: 1px solid transparent;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 1px;
 }
 .panel-heading > .dropdown .dropdown-toggle {
@@ -6639,7 +6660,7 @@ h3.light,
 h4.light,
 h5.light,
 h6.light {
-    font-weight: 200;
+    font-weight: 300;
 }
 .jumbobuttons {
     margin: 0 auto;
@@ -6649,7 +6670,7 @@ h6.light {
     background: #0bace1;
     color: #fff;
     padding-bottom: 50px;
-    font-weight: 200;
+    font-weight: 300;
 }
 .bluesec img {
     width: 100%;
@@ -6676,7 +6697,7 @@ h6.light {
     margin: 0 0 15px 0;
 }
 .activity-box p {
-    font-weight: 200;
+    font-weight: 300;
 }
 .activity-box--white {
     color: #f78d0f;
@@ -6702,7 +6723,7 @@ h6.light {
     margin: 120px 40px 60px 40px;
     box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
     padding: 30px 0;
-    font-weight: 200;
+    font-weight: 300;
     overflow-wrap: break-word;
     word-wrap: break-word;
     word-break: break-word;
@@ -6727,7 +6748,7 @@ footer {
     background-color: #2a2a2a;
     background-image: repeating-linear-gradient(45deg, transparent, transparent 3px, rgba(47, 47, 47, 0.5) 3px, rgba(101, 101, 101, 0.5) 6px);
     color: #fff;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 15px;
 }
 footer a {
