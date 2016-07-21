@@ -6832,7 +6832,7 @@ form h3 {
         margin-top: -8px;
     }
     .activity-box {
-        min-height: 264px
+        min-height: 263px;
     }
 }
 @media (max-width: 400px) {
