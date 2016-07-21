@@ -5801,12 +5801,15 @@ button.list-group-item-danger.active:focus {
 }
 .panel-contact {
     width: 100%;
-    border-color: #337ab7 !important;
+    border: none !important;
+    box-shadow: none;
+    -webkit-box-shadow: none;
 }
 .panel-contact > .panel-heading {
   color: #fff;
   background-color: #337ab7;
-  border-color: #337ab7 !important;
+  border: none !important;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
 }
 .panel-primary {
   border-color: #337ab7;
