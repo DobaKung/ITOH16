@@ -6748,7 +6748,7 @@ h6.light {
 }
 .paper {
     background: #fff;
-    margin: 120px 40px 60px 40px;
+    margin: 120px 40px 0 40px;
     box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
     padding: 30px 0;
     font-weight: 300;
