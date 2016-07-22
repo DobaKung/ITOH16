@@ -6774,6 +6774,16 @@ img.club {
     width: 100%;
     padding: 0 7px;
 }
+.itcamp{
+    background: #0bace1;
+    color: #fff;
+    padding-bottom: 50px;
+    font-weight: 300;
+    height: 300px;
+}
+.itcamp img{
+    width: 100%;
+}
 
 .highlight-reel {
     margin: -50px 0 40px 0;
