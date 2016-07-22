@@ -6699,17 +6699,23 @@ h6.light {
     background: url('../img/clubsec.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    color: #fff;
+    color: #ffffff;
     padding: 50px 20px;
     font-weight: 300;
 }
 .clubbox {
     width: 100%;
-    padding: 10px;
+    padding: 010px;
 }
 .clubbox-in {
     background: #fff;
-    height: 300px;
+    color: #6d6666
+}
+.clubbox-in img{
+    width: 100%;
+}
+.clubbox-text{
+    margin: 10px 10px 18px 10px;
 }
 .jumbobuttons {
     margin: 0 auto;
