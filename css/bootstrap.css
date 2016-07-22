@@ -6758,7 +6758,7 @@ img.club {
     border: 2px solid #ffffff;
     padding: 25px;
     margin: 20px;
-    min-height: 250px
+    min-height: 255px;
 }
 .activity-box h1, .activity-box p {
     margin: 0 0 15px 0;
