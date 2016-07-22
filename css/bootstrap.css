@@ -3164,6 +3164,14 @@ fieldset[disabled] .btn-default.focus {
   background: #fff;
   border: none;
 }
+.btn-learn {
+    color: #fff;
+    background: #ff7600;
+    border: none;
+}
+.btn-learn:hover {
+    color: #fff;
+}
 .btn-highlight {
   color: #0bace1;
   border: none;
@@ -6697,16 +6705,26 @@ h6.light {
 }
 .learnto{
     background: url('../img/learn-bg.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     color: #ff7600;
     padding: 50px 20px;
     font-weight: 300;
 }
-.learnto h3{
+.learnto h2 {
+    color: #fff;
+}
+.learnto h3 {
     margin-top: 0px;
+}
+.learnto p {
+    margin-bottom: 18px;
+}
+.learnto .well {
+    background: #fff;
+    border: none;
+    box-shadow: 0px 8px 14px rgba(0,0,0,0.15);
 }
 img.club {
     width: 100%;
