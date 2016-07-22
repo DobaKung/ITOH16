@@ -275,27 +275,6 @@ th {
     font-style: normal;
 }
 @font-face {
-    font-family: 'Boon';
-    src: url('../fonts/boon-300.woff2') format('woff2'),
-         url('../fonts/boon-300.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Boon';
-    src: url('../fonts/boon-500.woff2') format('woff2'),
-         url('../fonts/boon-500.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Boon';
-    src: url('../fonts/boon-600.woff2') format('woff2'),
-         url('../fonts/boon-600.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-}
-@font-face {
   font-family: 'Glyphicons Halflings';
 
   src: url('../fonts/glyphicons-halflings-regular.eot');
