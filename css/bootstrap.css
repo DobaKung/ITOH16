@@ -6777,12 +6777,8 @@ img.club {
 .itcamp{
     background: #0bace1;
     color: #fff;
-    padding-bottom: 50px;
+    padding: 100px 0;
     font-weight: 300;
-    height: 300px;
-}
-.itcamp img{
-    width: 100%;
 }
 
 .highlight-reel {
