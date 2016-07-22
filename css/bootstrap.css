@@ -6695,6 +6695,17 @@ h5.light,
 h6.light {
     font-weight: 300;
 }
+.learnto{
+    background: #ffffff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ff7800;
+    padding: 50px 20px;
+    font-weight: 300;
+    margin-top: 20px;
+}
 img.club {
     width: 100%;
     max-width: 800px;
