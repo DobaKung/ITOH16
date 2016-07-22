@@ -6720,7 +6720,7 @@ img.club {
     padding: 50px 20px;
     font-weight: 300;
 }
-.clubsec h2 {
+.clubsec h2, .learnto h2 {
     margin-bottom: 25px;
 }
 .clubbox {
