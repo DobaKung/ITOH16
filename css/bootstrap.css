@@ -6715,13 +6715,13 @@ h6.light {
 .clubbox-in {
     background: #fff;
     color: #6d6666;
-    height: 331px;
+    height: 336px;
 }
 .clubbox-in img{
     width: 100%;
 }
 .clubbox-text{
-    margin: 10px 10px 18px 10px;
+    margin: 10px 12px;
 }
 .jumbobuttons {
     margin: 0 auto;
@@ -6777,7 +6777,7 @@ h6.light {
     text-align: center;
 }
 .eventcarousel h1 {
-    margin-bottom: 80px;
+    margin-bottom: 37px;
 }
 .paper {
     background: #fff;
@@ -6846,6 +6846,19 @@ form h3 {
     body {
         background: #fff !important;
     }
+    .clubbox-in {
+        height: 367px;
+    }
+}
+@media (max-width: 320px) {
+    .clubbox-in {
+        height: 357px;
+    }
+}
+@media (max-width: 360px) {
+    .clubbox-in {
+        height: 355px;
+    }
 }
 @media (min-width: 769px) and (max-width: 980px) {
     .navbar-default .container {
@@ -6887,6 +6900,11 @@ form h3 {
     }
     .paper p, .paper li, .paper table {
         font-size: 14px;
+    }
+}
+@media (min-width: 1280px) {
+    .clubbox-in {
+        height: 347px;
     }
 }
 
