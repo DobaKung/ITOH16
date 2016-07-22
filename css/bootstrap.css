@@ -6851,6 +6851,10 @@ img.club {
     margin-top: 20px;
     margin-bottom: 5px;
 }
+img.itforge {
+    width: 200px;
+    margin: 20px 0 10px 0;
+}
 footer {
     padding: 55px 0 38px 0;
     background-color: #2a2a2a;
