@@ -6716,6 +6716,7 @@ h6.light {
     background: #fff;
     color: #6d6666;
     height: 336px;
+    font-size: 15px;
 }
 .clubbox-in img{
     width: 100%;
@@ -6884,7 +6885,7 @@ form h3 {
         margin-top: -8px;
     }
     .activity-box {
-        min-height: 243px;
+        min-height: 255px;
     }
 }
 @media (max-width: 400px) {
@@ -6924,6 +6925,9 @@ form h3 {
   td.visible-xs {
     display: table-cell !important;
   }
+    .activity-box--transparent {
+        min-height: auto !important;
+    }
 }
 @media (max-width: 767px) {
   .visible-xs-block {
