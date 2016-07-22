@@ -6709,7 +6709,8 @@ h6.light {
 }
 .clubbox-in {
     background: #fff;
-    color: #6d6666
+    color: #6d6666;
+    height: 331px;
 }
 .clubbox-in img{
     width: 100%;
