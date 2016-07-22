@@ -56,6 +56,10 @@ b,
 strong {
   font-weight: 600;
 }
+strong.faq {
+    font-weight: normal;
+    color: #337ab7;
+}
 dfn {
   font-style: italic;
 }
@@ -268,10 +272,17 @@ th {
     font-style: normal;
 }
 @font-face {
-    font-family: 'cloud_lightlight';
+    font-family: 'Cloud';
     src: url('../fonts/cloud-light.woff2') format('woff2'),
          url('../fonts/cloud-light.woff') format('woff');
     font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cloud';
+    src: url('../fonts/cloud-bold.woff2') format('woff2'),
+         url('../fonts/cloud-bold.woff') format('woff');
+    font-weight: bold;
     font-style: normal;
 }
 @font-face {
@@ -1197,7 +1208,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: cloud_lightlight;
+  font-family: Cloud;
   line-height: 1.1;
   color: inherit;
 }
@@ -6686,7 +6697,7 @@ h6.light {
 }
 .jumbobuttons {
     margin: 0 auto;
-    width: 282px;
+    width: 289px;
 }
 .bluesec {
     background: #0bace1;
@@ -6706,14 +6717,14 @@ h6.light {
     margin: 20px 0;
 }
 .orangesec {
-    background: #f78d0f;
+    background: #ff7800;
     padding: 50px 0;
 }
 .activity-box {
     border: 2px solid #ffffff;
     padding: 25px;
     margin: 20px;
-    min-height: 270px
+    min-height: 250px
 }
 .activity-box h1, .activity-box p {
     margin: 0 0 15px 0;
@@ -6757,6 +6768,9 @@ h6.light {
 .paper b.red, .paper strong.red {
     color: red;
 }
+.paper b, .paper strong {
+    color: #337ab7;
+}
 .paper hr {
     margin-top: 35px;
     margin-bottom: 35px;
@@ -6791,8 +6805,11 @@ form h3 {
     .eventcarousel h1 {
         margin-bottom: 40px;
     }
+    .activity-box {
+        margin: 12px;
+    }
     .activity-box--transparent {
-        min-height: 150px !important;
+        min-height: 243px !important;
     }
     .paper {
         margin: 55px 0;
@@ -6826,7 +6843,7 @@ form h3 {
         margin-top: -8px;
     }
     .activity-box {
-        min-height: 263px;
+        min-height: 243px;
     }
 }
 @media (max-width: 400px) {
@@ -6921,6 +6938,9 @@ form h3 {
   td.visible-md {
     display: table-cell !important;
   }
+    .activity-box {
+        margin: 8px;
+    }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .visible-md-block {
