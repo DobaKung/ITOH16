@@ -5555,6 +5555,7 @@ button.list-group-item-danger.active:focus {
   border-top-right-radius: 3px;
   font-weight: 300;
   letter-spacing: 1px;
+  cursor: pointer;
 }
 .panel-heading > .dropdown .dropdown-toggle {
   color: inherit;
