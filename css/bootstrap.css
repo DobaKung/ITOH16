@@ -6696,12 +6696,12 @@ h6.light {
     font-weight: 300;
 }
 .learnto{
-    background: #ffffff;
+    background: url('../img/learn-bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: #ff7800;
+    color: #ffffff;
     padding: 50px 20px;
     font-weight: 300;
     margin-top: 20px;
