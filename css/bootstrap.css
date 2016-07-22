@@ -6701,9 +6701,12 @@ h6.light {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: #ffffff;
+    color: #ff7600;
     padding: 50px 20px;
     font-weight: 300;
+}
+.learnto h3{
+    margin-top: 0px;
 }
 img.club {
     width: 100%;
