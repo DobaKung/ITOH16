@@ -6698,10 +6698,15 @@ h6.light {
 .clubsec{
     background: url('../img/clubsec.jpg');
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #ffffff;
     padding: 50px 20px;
     font-weight: 300;
+}
+.clubsec h2 {
+    margin-bottom: 25px;
 }
 .clubbox {
     width: 100%;
