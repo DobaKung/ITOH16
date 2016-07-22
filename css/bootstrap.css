@@ -6703,6 +6703,14 @@ h6.light {
     padding: 50px 20px;
     font-weight: 300;
 }
+.clubbox {
+    width: 100%;
+    padding: 10px;
+}
+.clubbox-in {
+    background: #fff;
+    height: 300px;
+}
 .jumbobuttons {
     margin: 0 auto;
     width: 289px;
