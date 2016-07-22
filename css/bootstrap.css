@@ -6696,11 +6696,11 @@ h6.light {
     font-weight: 300;
 }
 .clubsec{
-      background: url('../img/clubsec.jpg');
+    background: url('../img/clubsec.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
-    padding-bottom: 50px;
+    padding: 50px 20px;
     font-weight: 300;
 }
 .jumbobuttons {
