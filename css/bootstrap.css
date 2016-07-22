@@ -6695,6 +6695,11 @@ h5.light,
 h6.light {
     font-weight: 300;
 }
+img.club {
+    width: 100%;
+    max-width: 800px;
+    margin: 28px auto;
+}
 .clubsec{
     background: url('../img/clubsec.jpg');
     background-size: cover;
