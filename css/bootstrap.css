@@ -6708,7 +6708,7 @@ h5.light,
 h6.light {
     font-weight: 300;
 }
-.learnto{
+.learn{
     background: url('../img/learn-bg2.jpg');
     background-attachment: fixed;
     background-position: center;
@@ -6717,17 +6717,17 @@ h6.light {
     padding: 50px 20px;
     font-weight: 300;
 }
-.learnto h2 {
+.learn h2 {
     color: #fff;
 }
-.learnto h3 {
+.learn h3 {
     margin-top: 0px;
 }
-.learnto p {
+.learn p {
     margin-bottom: 18px;
     color: #5d5d5d;
 }
-.learnto .well {
+.learn .well {
     background: #fff;
     border: none;
     box-shadow: 0px 8px 14px rgba(0,0,0,0.15);
@@ -6742,7 +6742,7 @@ h6.light {
     padding: 50px 20px;
     font-weight: 300;
 }
-.clubsec h2, .learnto h2 {
+.clubsec h2, .learn h2 {
     margin-bottom: 25px;
 }
 .clubbox {
