@@ -5060,6 +5060,7 @@ a.badge:focus {
   background: url('../img/hero.jpg');
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -5067,7 +5068,7 @@ a.badge:focus {
 }
 .jumbotron img.jumbologo {
     width: 80%;
-    max-width: 700px;
+    max-width: 650px;
     margin-bottom: 20px;
 }
 .jumbotron p {
