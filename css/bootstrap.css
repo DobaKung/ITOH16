@@ -56,6 +56,10 @@ b,
 strong {
   font-weight: 600;
 }
+strong.faq {
+    font-weight: normal;
+    color: #337ab7;
+}
 dfn {
   font-style: italic;
 }
@@ -261,24 +265,24 @@ th {
   }
 }
 @font-face {
-    font-family: 'Boon';
-    src: url('../fonts/boon-300.woff2') format('woff2'),
-         url('../fonts/boon-300.woff') format('woff');
-    font-weight: 300;
+    font-family: 'cs_chatthaiuiregular';
+    src: url('../fonts/cschatthaiui.woff2') format('woff2'),
+         url('../fonts/cschatthaiui.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Boon';
-    src: url('../fonts/boon-500.woff2') format('woff2'),
-         url('../fonts/boon-500.woff') format('woff');
-    font-weight: 500;
+    font-family: 'Cloud';
+    src: url('../fonts/cloud-light.woff2') format('woff2'),
+         url('../fonts/cloud-light.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Boon';
-    src: url('../fonts/boon-600.woff2') format('woff2'),
-         url('../fonts/boon-600.woff') format('woff');
-    font-weight: 600;
+    font-family: 'Cloud';
+    src: url('../fonts/cloud-bold.woff2') format('woff2'),
+         url('../fonts/cloud-bold.woff') format('woff');
+    font-weight: bold;
     font-style: normal;
 }
 @font-face {
@@ -1102,8 +1106,8 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Boon", Helvetica, Arial, sans-serif;
-  font-size: 19px;
+  font-family: "cs_chatthaiuiregular", Helvetica, Arial, sans-serif;
+  font-size: 18px;
   line-height: 1.42857143;
   color: #333;
   background-color: #a6d6e6;
@@ -1204,8 +1208,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: Boon;
-  font-weight: 600;
+  font-family: Cloud;
   line-height: 1.1;
   color: inherit;
 }
@@ -3161,6 +3164,14 @@ fieldset[disabled] .btn-default.focus {
   background: #fff;
   border: none;
 }
+.btn-learn {
+    color: #fff;
+    background: #ff7600;
+    border: none;
+}
+.btn-learn:hover {
+    color: #fff;
+}
 .btn-highlight {
   color: #0bace1;
   border: none;
@@ -4499,7 +4510,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-nav > li > .dropdown-menu {
-  margin-top: 0;
+  margin-top: 9px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
@@ -4546,7 +4557,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.95);
   border-color: #e7e7e7;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.07);
   padding: 10px 0;
@@ -4614,8 +4625,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color: #555;
-  background-color: #e7e7e7;
+  color: #fff;
+  background-color: #0bace1;
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -5049,6 +5060,7 @@ a.badge:focus {
   background: url('../img/hero.jpg');
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -5056,7 +5068,7 @@ a.badge:focus {
 }
 .jumbotron img.jumbologo {
     width: 80%;
-    max-width: 700px;
+    max-width: 650px;
     margin-bottom: 20px;
 }
 .jumbotron p {
@@ -5121,6 +5133,7 @@ a.thumbnail.active {
 }
 .alert {
   padding: 15px;
+  margin-top: 20px;
   margin-bottom: 20px;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -5563,6 +5576,7 @@ button.list-group-item-danger.active:focus {
   border-top-right-radius: 3px;
   font-weight: 300;
   letter-spacing: 1px;
+  cursor: pointer;
 }
 .panel-heading > .dropdown .dropdown-toggle {
   color: inherit;
@@ -6083,9 +6097,12 @@ button.close {
 }
 @media (min-width: 768px) {
   .modal-dialog {
-    width: 600px;
+    width: 1000px;
     margin: 30px auto;
   }
+    .modal-body {
+        padding: 15px 45px;
+    }
   .modal-content {
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
             box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
@@ -6691,9 +6708,63 @@ h5.light,
 h6.light {
     font-weight: 300;
 }
+.learn{
+    background: url('../img/learn-bg2.jpg');
+    background-color: #ff7600;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: #ff7600;
+    padding: 50px 20px;
+    font-weight: 300;
+}
+.learn h2 {
+    color: #fff;
+}
+.learn h3 {
+    margin-top: 0px;
+}
+.learn p {
+    margin-bottom: 18px;
+    color: #5d5d5d;
+}
+.learn .well {
+    background: #fff;
+    border: none;
+    box-shadow: 0px 8px 14px rgba(0,0,0,0.15);
+}
+.clubsec{
+    background: url('../img/clubsec.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff;
+    padding: 50px 20px;
+    font-weight: 300;
+}
+.clubsec h2, .learn h2 {
+    margin-bottom: 25px;
+}
+.clubbox {
+    width: 100%;
+    padding: 010px;
+}
+.clubbox-in {
+    background: #fff;
+    color: #6d6666;
+    height: 336px;
+    font-size: 15px;
+}
+.clubbox-in img{
+    width: 100%;
+}
+.clubbox-text{
+    margin: 10px 12px;
+}
 .jumbobuttons {
     margin: 0 auto;
-    width: 282px;
+    width: 292px;
 }
 .bluesec {
     background: #0bace1;
@@ -6705,6 +6776,12 @@ h6.light {
     width: 100%;
     padding: 0 7px;
 }
+.itcamp{
+    background: #0bace1;
+    color: #fff;
+    padding: 100px 0;
+    font-weight: 300;
+}
 
 .highlight-reel {
     margin: -50px 0 40px 0;
@@ -6713,14 +6790,14 @@ h6.light {
     margin: 20px 0;
 }
 .orangesec {
-    background: #f78d0f;
+    background: #ff7800;
     padding: 50px 0;
 }
 .activity-box {
     border: 2px solid #ffffff;
     padding: 25px;
     margin: 20px;
-    min-height: 270px
+    min-height: 255px;
 }
 .activity-box h1, .activity-box p {
     margin: 0 0 15px 0;
@@ -6745,7 +6822,7 @@ h6.light {
     text-align: center;
 }
 .eventcarousel h1 {
-    margin-bottom: 80px;
+    margin-bottom: 37px;
 }
 .paper {
     background: #fff;
@@ -6764,6 +6841,9 @@ h6.light {
 .paper b.red, .paper strong.red {
     color: red;
 }
+.paper b, .paper strong {
+    color: #337ab7;
+}
 .paper hr {
     margin-top: 35px;
     margin-bottom: 35px;
@@ -6772,8 +6852,22 @@ h6.light {
     margin-top: 20px;
     margin-bottom: 5px;
 }
+.imggroup {
+    margin: 25px auto;
+    widows: 100%;
+}
+.imggroup img {
+    margin: 10px 0;
+}
+img.itforge {
+    width: 200px;
+    margin: 20px 0 10px 0;
+}
+.nobottommargin {
+    margin-bottom: 0;
+}
 footer {
-    padding: 55px 0 38px 0;
+    padding: 48px 0 38px 0;
     background-color: #2a2a2a;
     background-image: repeating-linear-gradient(45deg, transparent, transparent 3px, rgba(47, 47, 47, 0.5) 3px, rgba(101, 101, 101, 0.5) 6px);
     color: #fff;
@@ -6798,8 +6892,11 @@ form h3 {
     .eventcarousel h1 {
         margin-bottom: 40px;
     }
+    .activity-box {
+        margin: 12px;
+    }
     .activity-box--transparent {
-        min-height: 150px !important;
+        min-height: 243px !important;
     }
     .paper {
         margin: 55px 0;
@@ -6807,6 +6904,19 @@ form h3 {
     }
     body {
         background: #fff !important;
+    }
+    .clubbox-in {
+        height: 367px;
+    }
+}
+@media (max-width: 320px) {
+    .clubbox-in {
+        height: 357px;
+    }
+}
+@media (max-width: 360px) {
+    .clubbox-in {
+        height: 355px;
     }
 }
 @media (min-width: 769px) and (max-width: 980px) {
@@ -6833,7 +6943,7 @@ form h3 {
         margin-top: -8px;
     }
     .activity-box {
-        min-height: 263px;
+        min-height: 255px;
     }
 }
 @media (max-width: 400px) {
@@ -6849,6 +6959,11 @@ form h3 {
     }
     .paper p, .paper li, .paper table {
         font-size: 14px;
+    }
+}
+@media (min-width: 1280px) {
+    .clubbox-in {
+        height: 347px;
     }
 }
 
@@ -6868,6 +6983,9 @@ form h3 {
   td.visible-xs {
     display: table-cell !important;
   }
+    .activity-box--transparent {
+        min-height: auto !important;
+    }
 }
 @media (max-width: 767px) {
   .visible-xs-block {
@@ -6928,6 +7046,9 @@ form h3 {
   td.visible-md {
     display: table-cell !important;
   }
+    .activity-box {
+        margin: 8px;
+    }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .visible-md-block {

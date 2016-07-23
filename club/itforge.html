@@ -28,7 +28,7 @@
 				</div>
 				<div class="collapse navbar-collapse " id="nav">
 					<ul class="nav navbar-nav ">
-						<li><a href="../index.html">หน้าหลัก</a></li>
+						<li ><a href="../index.html">หน้าหลัก</a></li>
 						<li><a href="../schedule.html">กำหนดการ</a></li>
 						<li class="dropdown">
 							<a class="dropdown-toggle" data-toggle="dropdown" href="#">การแข่งขัน <span class="caret"></span></a>
@@ -36,7 +36,7 @@
 								<li><a href="../competition/esport.html">การแข่งกีฬาอิเล็กทรอนิกส์</a></li>
 								<li><a href="../competition/php.html">การแข่งพัฒนาเว็บไซต์</a></li>
 								<li><a href="../competition/quiz.html">การแข่งตอบปัญหา</a></li>
-								<li><a href="../competition/network.html">การแข่งความปลอดภัยคอมพิวเตอร์</a></li>
+								<li><a href="../competition/network.html">การแข่งความปลอดภัยของระบบคอมพิวเตอร์</a></li>
 								<li><a href="../competition/pitching.html">การแข่งนำเสนอแผนธุรกิจ</a></li>
 							</ul>
 						</li>
@@ -50,107 +50,16 @@
 	<body>
 		<div class="paper">
 			<div class="container">
-				<h1 class="light text-center">ลงทะเบียนเข้าชมงานสำหรับโรงเรียน</h1>
+				<h1 class="light text-center">ชุมนุม IT Forge</h1>
+                <center>
+                    <img src="../img/itforge.png" class="itforge"/>
+                </center>
 				<hr>
-				<form method="POST" action="some.php" accept-charset="UTF-8">
-					<input name="_token" type="hidden" value="6kn3jwL8KOmabNMytbQX2fHbxeYyR2NpJxHXcne8">
-					<h3>ข้อมูลส่วนตัว</h3>
-					<div class="row">
-						<div class="col-xs-12 col-md-6">
-							<div class="form-group">
-								<label>ชื่อ</label>
-								<div class="row">
-									<div class="col-xs-3">
-										<input type="text" class="form-control" id="prefix" name="prefix" placeholder="นาย" required>
-									</div>
-									<div class="col-xs-9">
-										<input type="text" class="form-control" id="name" name="name" placeholder="เปิดบ้าน" required>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-xs-12 col-md-6">
-							<div class="form-group">
-								<label>นามสกุล</label>
-								<input type="text" class="form-control" id="surname" name="surname" placeholder="ไอทีลาดกระบัง" required>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-xs-6 col-md-3">
-							<div class="form-group">
-								<label>เพศ</label>
-								<select class="form-control" name="prefix[]" required>
-								    <option value="M">ชาย</option>
-								    <option value="F">หญิง</option>
-								    <option value="U">ไม่ระบุ</option>
-								</select>
-                            </div>
-						</div>
-						<div class="col-xs-6 col-md-3">
-							<div class="form-group">
-								<label>อายุ</label>
-								<input type="number" class="form-control" id="age" name="age" placeholder="100" required>
-							</div>
-						</div>
-						<div class="col-xs-12 col-md-6">
-							<div class="form-group">
-								<label>จำนวนนักเรียนที่มาชมงาน</label>
-								<input type="text" class="form-control" id="follower" name="follower" placeholder="1,000,000" required>
-							</div>
-						</div>
-                        <div class="col-xs-12 col-md-6">
-							<div class="form-group">
-								<label>โรงเรียน</label>
-								<input type="text" class="form-control" id="school" name="school" placeholder="ไอทีลาดกระบัง" required>
-							</div>
-						</div>
-                        <div class="col-xs-12 col-md-6">
-                            <div class="form-group">
-                                <label>จังหวัด</label>
-                                <input type="text" class="form-control" id="province" name="province" placeholder="กรุงเทพฯ" required>
-					</div>
-                        </div>
-					</div>
-					<h3>ช่องทางการติดต่อ</h3>
-					<div class="row">
-						<div class="col-xs-12 col-md-6">
-							<div class="form-group">
-								<label>อีเมลล์</label>
-								<input type="text" class="form-control" id="email" name="email" placeholder="openhouse@it.kmitl.ac.th" required>
-							</div>
-						</div>
-						<div class="col-xs-12 col-md-6">
-							<div class="form-group">
-								<label>โทรศัพท์</label>
-								<input type="text" class="form-control" id="phone" name="phone" placeholder="088-888-8888" required>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-xs-12 col-md-6">
-							<div class="form-group">
-								<label>Facebook</label>
-								<input type="text" class="form-control" id="facebook" name="facebook" placeholder="fb.com/ITLadkrabangOpenhouse">
-							</div>
-						</div>
-						<div class="col-xs-12 col-md-6">
-							<div class="form-group">
-								<label>Twitter</label>
-								<input type="text" class="form-control" id="twitter" name="twitter" placeholder="twitter.com/@ITKMITL">
-							</div>
-						</div>
-					</div>
-					<h3>ข่าวสารจาก IT Ladkrabang Open House</h3>
-					<div class="checkbox">
-						<label>
-						<input type="checkbox" name="news" value="yes"> ฉันต้องการรับข้อมูลข่าวสารจากทีมงาน IT Ladkrabang Open House
-						</label>
-					</div>
-					<button type="submit" class="btn btn-primary btn-block">ลงทะเบียน</button>
-				</form>
-			</div>
-		</div>
+                    <p>IT นั้นย่อมาจาก Information Technology แปลว่า เทคโนโลยีสารสนเทศ ส่วน Forge นั้นแปลว่า การตีเหล็ก หรือ โรงตีเหล็ก เพราะฉะนั้นเมื่อนำสองคำนี้มารวมกันจะหมายถึง การตีความรู้ทางด้านเทคโนโลยีสารสนเทศให้กล้าแข็งขึ้น หรือ หมายถึงสถานที่สำหรับการพัฒนาความรู้ทางด้านเทคโนโลยี</p>
+                    <img src="../img/club-large/club-1-1.jpg" class="club img-responsive"/>
+                    <p>ITForge เป็นชุมนุมด้าน IT ของคณะเทคโนโลยีสารสนเทศ เป็นแหล่งรวมนักศึกษาที่มีความสนใจในการพัฒนา หรือ นำเทคโนโลยีมาสร้างสรรค์ในสิ่งที่มีความสนใจร่วมกัน เช่น การพัฒนาเกม การพัฒนาแอพลิเคชั่น ฯลฯ นอกจากนี้ยังรวมไปถึงการถ่ายทอดความรู้ภายในคณะ เช่นการแลกเปลี่ยนประสบการณ์ ความรู้ระหว่างรุ่นพี่-รุ่นน้อง และการถ่ายทอดความรู้สู่ภายนอก เช่น การจัดกิจกรรมหรือการจัด Workshop เผยแพร่ความรู้ด้านเทคโนโลยีทั้งหมดเพื่อตอบโจทย์ของชุมนุม คือการสร้างแหล่งรวมนักศึกษาที่พร้อมจะนำความรู้ด้าน IT มาสร้างสรรค์สิ่งดีๆ สร้างประโยชน์ให้กับตนเองและสังคม</p>
+            </div>
+        </div>
         <div class="logo-spon">
             <div class="container">
                 <div class="row">    

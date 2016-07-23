@@ -28,7 +28,7 @@
 				</div>
 				<div class="collapse navbar-collapse " id="nav">
 					<ul class="nav navbar-nav ">
-						<li><a href="../index.html">หน้าหลัก</a></li>
+						<li ><a href="../index.html">หน้าหลัก</a></li>
 						<li><a href="../schedule.html">กำหนดการ</a></li>
 						<li class="dropdown">
 							<a class="dropdown-toggle" data-toggle="dropdown" href="#">การแข่งขัน <span class="caret"></span></a>
@@ -36,12 +36,12 @@
 								<li><a href="../competition/esport.html">การแข่งกีฬาอิเล็กทรอนิกส์</a></li>
 								<li><a href="../competition/php.html">การแข่งพัฒนาเว็บไซต์</a></li>
 								<li><a href="../competition/quiz.html">การแข่งตอบปัญหา</a></li>
-								<li><a href="../competition/network.html">การแข่งความปลอดภัยคอมพิวเตอร์</a></li>
+								<li><a href="../competition/network.html">การแข่งความปลอดภัยของระบบคอมพิวเตอร์</a></li>
 								<li><a href="../competition/pitching.html">การแข่งนำเสนอแผนธุรกิจ</a></li>
 							</ul>
 						</li>
 						<li><a href="../routes.html">การเดินทาง</a></li>
-						<li><a href="../contact.html">ติดต่อ</a></li>
+						<li class="../active"><a href="#">ติดต่อ</a></li>
 					</ul>
 				</div>
 			</div>
@@ -50,107 +50,17 @@
 	<body>
 		<div class="paper">
 			<div class="container">
-				<h1 class="light text-center">ลงทะเบียนเข้าชมงานสำหรับโรงเรียน</h1>
+				<h1 class="light text-center">การแสดงนิทรรศการทางวิชาการ</h1>
 				<hr>
-				<form method="POST" action="some.php" accept-charset="UTF-8">
-					<input name="_token" type="hidden" value="6kn3jwL8KOmabNMytbQX2fHbxeYyR2NpJxHXcne8">
-					<h3>ข้อมูลส่วนตัว</h3>
-					<div class="row">
-						<div class="col-xs-12 col-md-6">
-							<div class="form-group">
-								<label>ชื่อ</label>
-								<div class="row">
-									<div class="col-xs-3">
-										<input type="text" class="form-control" id="prefix" name="prefix" placeholder="นาย" required>
-									</div>
-									<div class="col-xs-9">
-										<input type="text" class="form-control" id="name" name="name" placeholder="เปิดบ้าน" required>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-xs-12 col-md-6">
-							<div class="form-group">
-								<label>นามสกุล</label>
-								<input type="text" class="form-control" id="surname" name="surname" placeholder="ไอทีลาดกระบัง" required>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-xs-6 col-md-3">
-							<div class="form-group">
-								<label>เพศ</label>
-								<select class="form-control" name="prefix[]" required>
-								    <option value="M">ชาย</option>
-								    <option value="F">หญิง</option>
-								    <option value="U">ไม่ระบุ</option>
-								</select>
-                            </div>
-						</div>
-						<div class="col-xs-6 col-md-3">
-							<div class="form-group">
-								<label>อายุ</label>
-								<input type="number" class="form-control" id="age" name="age" placeholder="100" required>
-							</div>
-						</div>
-						<div class="col-xs-12 col-md-6">
-							<div class="form-group">
-								<label>จำนวนนักเรียนที่มาชมงาน</label>
-								<input type="text" class="form-control" id="follower" name="follower" placeholder="1,000,000" required>
-							</div>
-						</div>
-                        <div class="col-xs-12 col-md-6">
-							<div class="form-group">
-								<label>โรงเรียน</label>
-								<input type="text" class="form-control" id="school" name="school" placeholder="ไอทีลาดกระบัง" required>
-							</div>
-						</div>
-                        <div class="col-xs-12 col-md-6">
-                            <div class="form-group">
-                                <label>จังหวัด</label>
-                                <input type="text" class="form-control" id="province" name="province" placeholder="กรุงเทพฯ" required>
-					</div>
-                        </div>
-					</div>
-					<h3>ช่องทางการติดต่อ</h3>
-					<div class="row">
-						<div class="col-xs-12 col-md-6">
-							<div class="form-group">
-								<label>อีเมลล์</label>
-								<input type="text" class="form-control" id="email" name="email" placeholder="openhouse@it.kmitl.ac.th" required>
-							</div>
-						</div>
-						<div class="col-xs-12 col-md-6">
-							<div class="form-group">
-								<label>โทรศัพท์</label>
-								<input type="text" class="form-control" id="phone" name="phone" placeholder="088-888-8888" required>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-xs-12 col-md-6">
-							<div class="form-group">
-								<label>Facebook</label>
-								<input type="text" class="form-control" id="facebook" name="facebook" placeholder="fb.com/ITLadkrabangOpenhouse">
-							</div>
-						</div>
-						<div class="col-xs-12 col-md-6">
-							<div class="form-group">
-								<label>Twitter</label>
-								<input type="text" class="form-control" id="twitter" name="twitter" placeholder="twitter.com/@ITKMITL">
-							</div>
-						</div>
-					</div>
-					<h3>ข่าวสารจาก IT Ladkrabang Open House</h3>
-					<div class="checkbox">
-						<label>
-						<input type="checkbox" name="news" value="yes"> ฉันต้องการรับข้อมูลข่าวสารจากทีมงาน IT Ladkrabang Open House
-						</label>
-					</div>
-					<button type="submit" class="btn btn-primary btn-block">ลงทะเบียน</button>
-				</form>
-			</div>
-		</div>
+                <h3>ผลงานนักศึกษาและคณาจารย์</h3>
+                <p>คณะเทคโนโลยีสารสนเทศ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง ได้มีการนำผลงานต่างๆ ของนักศึกษาระดับปริญญาตรี, ปริญญาโท และ ปริญญาเอก รวมทั้งงานวิจัยของอาจารย์ในคณะฯ มาจัดแสดงให้ผู้ที่สนใจได้ชมและศึกษา บริเวณโถงชั้นล่างอาคารคณะฯ</p>
+                <p>ทุกท่านจะได้รับทั้งความรู้ในเชิงวิชาการจากทั้งจากผลงานของนักศึกษา, งานวิจัยภายในคณะ รวมถึงผู้สนับสนุนต่างๆ ที่จะนำเทคโนโลยีและนวัตกรรมใหม่ๆ ผู้เข้าร่วมงานทุกท่าน ได้สัมผัสกันอย่างใกล้ชิด</p>
+                <br/>
+                <div class="alert alert-info text-center">
+                    ผู้ที่สนใจสามารถเข้าชมได้ในวันศุกร์ที่ 26 สิงหาคม 2559 บริเวณโถงชั้นล่างของอาคารคณะฯ ตลอดทั้งวัน
+                </div>
+            </div>
+        </div>
         <div class="logo-spon">
             <div class="container">
                 <div class="row">    

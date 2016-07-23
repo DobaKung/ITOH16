@@ -28,7 +28,7 @@
 				</div>
 				<div class="collapse navbar-collapse " id="nav">
 					<ul class="nav navbar-nav ">
-						<li><a href="../index.html">หน้าหลัก</a></li>
+						<li ><a href="../index.html">หน้าหลัก</a></li>
 						<li><a href="../schedule.html">กำหนดการ</a></li>
 						<li class="dropdown">
 							<a class="dropdown-toggle" data-toggle="dropdown" href="#">การแข่งขัน <span class="caret"></span></a>
@@ -36,7 +36,7 @@
 								<li><a href="../competition/esport.html">การแข่งกีฬาอิเล็กทรอนิกส์</a></li>
 								<li><a href="../competition/php.html">การแข่งพัฒนาเว็บไซต์</a></li>
 								<li><a href="../competition/quiz.html">การแข่งตอบปัญหา</a></li>
-								<li><a href="../competition/network.html">การแข่งความปลอดภัยคอมพิวเตอร์</a></li>
+								<li><a href="../competition/network.html">การแข่งความปลอดภัยของระบบคอมพิวเตอร์</a></li>
 								<li><a href="../competition/pitching.html">การแข่งนำเสนอแผนธุรกิจ</a></li>
 							</ul>
 						</li>
@@ -50,107 +50,30 @@
 	<body>
 		<div class="paper">
 			<div class="container">
-				<h1 class="light text-center">ลงทะเบียนเข้าชมงานสำหรับโรงเรียน</h1>
+				<h1 class="light text-center">ชุมนุม FOTO+ MAG</h1>
 				<hr>
-				<form method="POST" action="some.php" accept-charset="UTF-8">
-					<input name="_token" type="hidden" value="6kn3jwL8KOmabNMytbQX2fHbxeYyR2NpJxHXcne8">
-					<h3>ข้อมูลส่วนตัว</h3>
-					<div class="row">
-						<div class="col-xs-12 col-md-6">
-							<div class="form-group">
-								<label>ชื่อ</label>
-								<div class="row">
-									<div class="col-xs-3">
-										<input type="text" class="form-control" id="prefix" name="prefix" placeholder="นาย" required>
-									</div>
-									<div class="col-xs-9">
-										<input type="text" class="form-control" id="name" name="name" placeholder="เปิดบ้าน" required>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-xs-12 col-md-6">
-							<div class="form-group">
-								<label>นามสกุล</label>
-								<input type="text" class="form-control" id="surname" name="surname" placeholder="ไอทีลาดกระบัง" required>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-xs-6 col-md-3">
-							<div class="form-group">
-								<label>เพศ</label>
-								<select class="form-control" name="prefix[]" required>
-								    <option value="M">ชาย</option>
-								    <option value="F">หญิง</option>
-								    <option value="U">ไม่ระบุ</option>
-								</select>
-                            </div>
-						</div>
-						<div class="col-xs-6 col-md-3">
-							<div class="form-group">
-								<label>อายุ</label>
-								<input type="number" class="form-control" id="age" name="age" placeholder="100" required>
-							</div>
-						</div>
-						<div class="col-xs-12 col-md-6">
-							<div class="form-group">
-								<label>จำนวนนักเรียนที่มาชมงาน</label>
-								<input type="text" class="form-control" id="follower" name="follower" placeholder="1,000,000" required>
-							</div>
-						</div>
-                        <div class="col-xs-12 col-md-6">
-							<div class="form-group">
-								<label>โรงเรียน</label>
-								<input type="text" class="form-control" id="school" name="school" placeholder="ไอทีลาดกระบัง" required>
-							</div>
-						</div>
-                        <div class="col-xs-12 col-md-6">
-                            <div class="form-group">
-                                <label>จังหวัด</label>
-                                <input type="text" class="form-control" id="province" name="province" placeholder="กรุงเทพฯ" required>
-					</div>
-                        </div>
-					</div>
-					<h3>ช่องทางการติดต่อ</h3>
-					<div class="row">
-						<div class="col-xs-12 col-md-6">
-							<div class="form-group">
-								<label>อีเมลล์</label>
-								<input type="text" class="form-control" id="email" name="email" placeholder="openhouse@it.kmitl.ac.th" required>
-							</div>
-						</div>
-						<div class="col-xs-12 col-md-6">
-							<div class="form-group">
-								<label>โทรศัพท์</label>
-								<input type="text" class="form-control" id="phone" name="phone" placeholder="088-888-8888" required>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-xs-12 col-md-6">
-							<div class="form-group">
-								<label>Facebook</label>
-								<input type="text" class="form-control" id="facebook" name="facebook" placeholder="fb.com/ITLadkrabangOpenhouse">
-							</div>
-						</div>
-						<div class="col-xs-12 col-md-6">
-							<div class="form-group">
-								<label>Twitter</label>
-								<input type="text" class="form-control" id="twitter" name="twitter" placeholder="twitter.com/@ITKMITL">
-							</div>
-						</div>
-					</div>
-					<h3>ข่าวสารจาก IT Ladkrabang Open House</h3>
-					<div class="checkbox">
-						<label>
-						<input type="checkbox" name="news" value="yes"> ฉันต้องการรับข้อมูลข่าวสารจากทีมงาน IT Ladkrabang Open House
-						</label>
-					</div>
-					<button type="submit" class="btn btn-primary btn-block">ลงทะเบียน</button>
-				</form>
-			</div>
-		</div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p>ในโอกาสพิเศษต่างๆ ไม่ว่าจะเป็นงานนิทรรศการ งานวิชาการ งานกีฬา หรืองานพิธีสำคัญ น้องๆจะได้เห็นบุคคลกลุ่มหนึ่ง อาจจะเป็นกลุ่มเล็ก ๆ แต่มีความสำคัญไม่น้อยเลยทีเดียว พวกเขามีอุปกรณ์สำคัญอย่าง กล้องถ่ายภาพ เป็นอุปกรณ์คู่ใจที่ติดตัวไว้ตลอดเวลา พวกเขามีหน้าที่ในการเก็บภาพบรรยากาศ เหตุการณ์ต่างๆ รอยยิ้ม เสียงหัวเราะ หรือความประทับใจที่เกิดขึ้น ออกมาเป็นภาพถ่าย หรืออาจจะเป็นภาพเคลื่อนไหว พวกเขาก็คือ ช่างภาพ นั่นเอง</p>
+                    </div>
+                    <div class="col-xs-6 col-md-4">
+                        <img src="../img/club-large/club-4-2.jpg" class="club img-responsive" />
+                    </div>
+                    <div class="hidden-xs hidden-sm col-md-4">
+                        <img src="../img/club-large/club-4-3.jpg" class="club img-responsive" />
+                    </div>
+                    <div class="col-xs-6 col-md-4">
+                        <img src="../img/club-large/club-4-1.jpg" class="club img-responsive" />
+                    </div>
+                    <div class="col-xs-12">
+                        <h3>ชุมนุม FOTO+ MAG คืออะไร?</h3>
+                        <p>เป็นชุมนุมของผู้ที่สนใจ หรือรักในการถ่ายภาพ ทางชุมนุมไม่จำกัดว่าสมาชิกของชุมนุมจะต้องมีกล้องถ่ายภาพทุกคน ใครไม่มีกล้องก็สามารถที่จะร่วมกิจกรรมของชุมนุมได้ โดยกิจกรรมของชุมนุม จะจัดขึ้นเรื่อยๆ ตลอดปีการศึกษา</p>
+                        <h3>ชุมนุม FOTO+ MAG ทำอะไรบ้าง?</h3>
+                        <p>หลักๆคงหนีไม่พ้นการถ่ายภาพ แต่ชุมนุมของเราไม่ใช่เพียงแค่ถ่ายภาพบรรยากาศในงาน หรือโอกาสสำคัญต่าง ๆ เท่านั้น แต่ยังมีกิจกรรมเพิ่มเติมที่จัดให้กับสมาชิกชุมนุม เพื่อเสริมสร้างทักษะในการถ่ายภาพอีกด้วย เช่น Workshop การถ่ายภาพ และแต่งภาพ โดยพี่ๆชุมนุมที่มีความรู้ ความสามารถในด้านนี้ นอกเหนือจากนี้ ยังมีกิจกรรมดีๆ อย่างเช่น จัดทริปถ่ายภาพนอกสถานที่ และกิจกรรมอื่นๆ ตลอดปีการศึกษา   สำหรับน้องๆ ที่รักในการถ่ายภาพ สนใจในเทคโนโลยีเกี่ยวกับภาพถ่าย ในวันงาน จะมีการจัดแสดงนิทรรศการภาพถ่าย เป็นผลงานของนักศึกษาที่เป็นสมาชิกของชุมนุม น้องๆที่สนใจ สามารถที่จะมาเยี่ยมชม พูดคุย แลกเปลี่ยนความคิดเห็นกันได้ ที่ห้อง M16 นะคะ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="logo-spon">
             <div class="container">
                 <div class="row">    
