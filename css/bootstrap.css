@@ -5133,6 +5133,7 @@ a.thumbnail.active {
 }
 .alert {
   padding: 15px;
+  margin-top: 20px;
   margin-bottom: 20px;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -6731,11 +6732,6 @@ h6.light {
     border: none;
     box-shadow: 0px 8px 14px rgba(0,0,0,0.15);
 }
-img.club {
-    width: 100%;
-    max-width: 800px;
-    margin: 28px auto;
-}
 .clubsec{
     background: url('../img/clubsec.jpg');
     background-size: cover;
@@ -6855,12 +6851,22 @@ img.club {
     margin-top: 20px;
     margin-bottom: 5px;
 }
+.imggroup {
+    margin: 25px auto;
+    widows: 100%;
+}
+.imggroup img {
+    margin: 10px 0;
+}
 img.itforge {
     width: 200px;
     margin: 20px 0 10px 0;
 }
+.nobottommargin {
+    margin-bottom: 0;
+}
 footer {
-    padding: 55px 0 38px 0;
+    padding: 48px 0 38px 0;
     background-color: #2a2a2a;
     background-image: repeating-linear-gradient(45deg, transparent, transparent 3px, rgba(47, 47, 47, 0.5) 3px, rgba(101, 101, 101, 0.5) 6px);
     color: #fff;
