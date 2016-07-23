@@ -6710,6 +6710,7 @@ h6.light {
 }
 .learn{
     background: url('../img/learn-bg2.jpg');
+    background-color: #ff7600;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
